@@ -9,6 +9,8 @@ const app = express()
 app.use(express.json())
 
 app.use("/users",token, userRoute)
+
+
 app.use("/auth", authRoute)
 
 
